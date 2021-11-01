@@ -1,5 +1,7 @@
 import React, { useState } from "react";
 import { data } from "../data";
+import { HiOutlineArrowUp } from "react-icons/hi";
+import { HiOutlineArrowDown } from "react-icons/hi";
 
 const Services = () => {
 	const [isOpen, setIsOpen] = useState(false);
@@ -25,6 +27,11 @@ const Services = () => {
 					<div key={id}>
 						<div className="service-title">
 							<h3 onClick={() => toggleOpen(id)}>{title}</h3>
+							{isOpen === id && <HiOutlineArrowUp onClick={() => toggleOpen(id)} /> ? (
+								<HiOutlineArrowUp />
+							) : (
+								<HiOutlineArrowDown />
+							)}
 						</div>
 
 						{/* list items */}

@@ -28,10 +28,13 @@ h4 {
 }
 
 .section {
-	margin: 2rem 1rem;
+	margin: 4rem 1rem;
 }
 
 .service-title {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
 	padding: 1rem 0;
 	border-bottom: 1px solid grey;
 	transition: all;
@@ -40,10 +43,26 @@ h4 {
 .service-title h3:hover {
 	color: var(--title-color);
 	margin-left: 2rem;
-	transition: .25s ease-in-out;
+	transition: 0.15s ease-out;
 }
 
 .service-list {
 	margin-top: 1rem;
 	margin-left: 1rem;
+	transition: all ease-in;
+}
+
+.service-list{
+	margin-bottom: 2rem;
+}
+
+.tel {
+	text-decoration: none;
+	color: inherit;
+	cursor: pointer;
+}
+
+.email {
+	color: var(--title-color);
+	cursor: pointer;
 }

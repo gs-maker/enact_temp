@@ -13,7 +13,7 @@ const Services = () => {
 	};
 
 	return (
-		<div>
+		<div className="section">
 			<h4>OUR SERVICES</h4>
 			<p className="para-large">
 				We believe in providing solutions and practical capabilities that guarantee sustainable business value to our
@@ -23,10 +23,13 @@ const Services = () => {
 				const { id, title, items } = service;
 				return (
 					<div key={id}>
-						<h3 onClick={() => toggleOpen(id)}>{title}</h3>
+						<div className="service-title">
+							<h3 onClick={() => toggleOpen(id)}>{title}</h3>
+						</div>
+
 						{/* list items */}
 						{isOpen === id && (
-							<ul>
+							<ul className="service-list">
 								{items.map((item) => {
 									return <li key={item.id}>{item.label}</li>;
 								})}

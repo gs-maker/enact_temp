@@ -3,6 +3,12 @@
 	padding: 0;
 	box-sizing: border-box;
 	font-family: "Lato", sans-serif;
+	line-height: 1.5;
+	font-size: 17px;
+}
+
+body {
+	font-size: 1rem;
 }
 
 :root {
@@ -10,7 +16,34 @@
 	--background-color: #f3f8ff;
 }
 
+h4 {
+	color: var(--title-color);
+}
+
 .para-large {
-	font-size: 2rem;
+	font-size: 1.75rem;
 	font-weight: 200;
+	margin-bottom: 0.75rem;
+	line-height: 1.2;
+}
+
+.section {
+	margin: 2rem 1rem;
+}
+
+.service-title {
+	padding: 1rem 0;
+	border-bottom: 1px solid grey;
+	transition: all;
+}
+
+.service-title h3:hover {
+	color: var(--title-color);
+	margin-left: 2rem;
+	transition: .25s ease-in-out;
+}
+
+.service-list {
+	margin-top: 1rem;
+	margin-left: 1rem;
 }

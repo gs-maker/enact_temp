@@ -48,7 +48,7 @@ h4 {
 
 .service-title h3:hover {
 	color: var(--title-color);
-	margin-left: 2rem;
+	/* margin-left: 2rem; */
 	transition: 0.15s ease-out;
 }
 

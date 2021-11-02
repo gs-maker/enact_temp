@@ -16,19 +16,19 @@ export const data = [
 		id: 2,
 		title: "Training and Capacity Building",
 		items: [
-			{ id: 1, label: "Strategy Execution Solutions" },
-			{ id: 2, label: "Business Process Management Solutions" },
+			{ id: 1, label: "Strategy Development" },
+			{ id: 2, label: "Sustainability and Leadership" },
+			{ id: 3, label: "Business Process Management" },
+			{ id: 4, label: "Project Management" },
+			{ id: 5, label: "Risk Management" },
 		],
 	},
 	{
 		id: 3,
 		title: "Technology and  Software solutions",
 		items: [
-			{ id: 1, label: "Strategy Development" },
-			{ id: 2, label: "Sustainability and Leadership" },
-			{ id: 3, label: "Business Process Management" },
-			{ id: 4, label: "Project Management" },
-			{ id: 5, label: "Risk Management" },
+			{ id: 1, label: "Strategy Execution Solutions" },
+			{ id: 2, label: "Business Process Management Solutions" },
 		],
 	},
 ];

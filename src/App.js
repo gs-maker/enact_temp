@@ -8,10 +8,11 @@ function App() {
 	return (
 		<div className="layout">
 			<div className="inner-layout">
-				<div className="logo-container"></div>
+				<div className="logo-container">
+					<img src={logo} alt="enact logo" />
+				</div>
 
 				<div className="content">
-					<img src={logo} alt="enact logo" />
 					<AboutUs />
 					<Services />
 					<ContactUs />

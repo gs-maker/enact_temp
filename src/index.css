@@ -74,6 +74,7 @@ h4 {
 
 .layout {
 	display: grid;
+	margin: 0 auto;
 	grid-gap: 1rem;
 	grid-template-rows: auto;
 	grid-template-columns: repeat(5, 1fr);

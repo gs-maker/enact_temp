@@ -27,10 +27,10 @@ const Services = () => {
 					<div key={id}>
 						<div className="service-title">
 							<h3 onClick={() => toggleOpen(id)}>{title}</h3>
-							{isOpen === id && <HiOutlineArrowUp onClick={() => toggleOpen(id)} /> ? (
-								<HiOutlineArrowUp />
+							{isOpen === id && <HiOutlineArrowUp /> ? (
+								<HiOutlineArrowUp onClick={() => toggleOpen(id)} />
 							) : (
-								<HiOutlineArrowDown />
+								<HiOutlineArrowDown onClick={() => toggleOpen(id)} />
 							)}
 						</div>
 

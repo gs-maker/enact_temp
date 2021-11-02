@@ -56,7 +56,7 @@ h4 {
 	margin-top: 1rem;
 	margin-left: 1rem;
 	margin-bottom: 2rem;
-	color: slategray;
+	color: var(--font-color);
 	transition: all ease-in;
 }
 
@@ -109,7 +109,7 @@ h4 {
 	position: absolute;
 	top: 0;
 	left: 0;
-	background-image: url("./img/unsplash_boardroom.png");
+	background-image: url("./img/unsplash_boardroom_1.png");
 	background-position: center;
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -124,7 +124,7 @@ h4 {
 	right: 0;
 	top: 0;
 	bottom: 0;
-	background: rgba(0, 0, 0, 0.5);
+	background: rgba(0, 0, 0, 0.45);
 }
 
 .content {
@@ -142,6 +142,13 @@ h4 {
 }
 
 @media screen and (max-width: 800px) {
+	.para-large {
+		font-size: 1.55rem;
+	}
+	p,
+	li {
+		font-size: 0.95rem;
+	}
 	.logo-container {
 		grid-column: 1/6;
 		grid-row: 1/2;

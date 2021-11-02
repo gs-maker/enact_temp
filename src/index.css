@@ -69,7 +69,7 @@ h4 {
 .email {
 	color: var(--title-color);
 	cursor: pointer;
-	margin-bottom: 1rem;
+	margin-bottom: 2rem;
 }
 
 .layout {

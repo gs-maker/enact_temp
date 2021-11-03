@@ -54,7 +54,7 @@ h4 {
 
 .service-list {
 	margin-top: 1rem;
-	margin-left: 1rem;
+	margin-left: 1.05rem;
 	margin-bottom: 2rem;
 	color: var(--font-color);
 	transition: all ease-in;
